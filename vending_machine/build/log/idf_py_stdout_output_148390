@@ -1,0 +1,136 @@
+Command: ninja all
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/halo/esp32_vending/vending_machine/build/bootloader/esp-idf/esptool_py && /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/halo/esp32_vending/vending_machine/build/bootloader/bootloader.bin
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj 
+/home/halo/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -DESP_PLATFORM -DIDF_VER=\"v5.5.5\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/halo/esp32_vending/vending_machine/build/config -I/home/halo/esp32_vending/vending_machine/main -I/home/halo/.espressif/v5.5.5/esp-idf/components/newlib/platform_include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/include/freertos -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/esp_additions/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include/soc -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/dma/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/ldo/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/debug_probe/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/power_supply/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/port/esp32/. -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/port/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/heap/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/heap/tlsf -I/home/halo/.espressif/v5.5.5/esp-idf/components/log/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32/register -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/platform_port/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32/include/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_common/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/port/soc -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/port/include/private -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/deprecated_include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include/apps -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include/apps/sntp -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/lwip/src/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/freertos/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/deprecated -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/i2c/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/touch_sensor/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/twai/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/touch_sensor/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_pm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_ringbuf/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_gpio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_pcnt/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_gptimer/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_mcpwm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_ana_cmpr/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_i2s/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdmmc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/sdmmc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdspi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_dac/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_rmt/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_tsens/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_i2c/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/vfs/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_ledc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_parlio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_twai/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_lcd/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_lcd/interface -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/include/local -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/wifi_apps/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_event/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_phy/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_phy/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_netif/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_http_client/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/nvs_flash/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_partition/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_timer/include -I/home/halo/esp32_vending/vending_machine/managed_components/espressif__esp_lcd_ili9341/include @"/home/halo/esp32_vending/vending_machine/build/toolchain/cxxflags" -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/halo/esp32_vending/vending_machine=. -fmacro-prefix-map=/home/halo/.espressif/v5.5.5/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fuse-cxa-atexit -DESP_LCD_ILI9341_VER_MAJOR=2 -DESP_LCD_ILI9341_VER_MINOR=1 -DESP_LCD_ILI9341_VER_PATCH=0 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj -c /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:62:6: error: no declaration matches 'bool MFRC522Driver::writeReg(uint8_t, uint8_t)'
+   62 | bool MFRC522Driver::writeReg(
+      |      ^~~~~~~~~~~~~
+In file included from /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:1:
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.h:19:10: note: candidate is: 'void MFRC522Driver::writeReg(uint8_t, uint8_t)'
+   19 |     void writeReg(uint8_t reg, uint8_t value);
+      |          ^~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.h:6:7: note: 'class MFRC522Driver' defined here
+    6 | class MFRC522Driver {
+      |       ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:109:6: error: no declaration matches 'bool MFRC522Driver::readReg(uint8_t, uint8_t*)'
+  109 | bool MFRC522Driver::readReg(
+      |      ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.h:20:13: note: candidate is: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+   20 |     uint8_t readReg(uint8_t reg);
+      |             ^~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.h:6:7: note: 'class MFRC522Driver' defined here
+    6 | class MFRC522Driver {
+      |       ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp: In member function 'uint8_t MFRC522Driver::readReg(uint8_t)':
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:172:17: error: no matching function for call to 'MFRC522Driver::readReg(uint8_t&, uint8_t*)'
+  172 |     if (!readReg(reg, &value))
+      |          ~~~~~~~^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note: candidate: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+  166 | uint8_t MFRC522Driver::readReg(
+      |         ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note:   candidate expects 1 argument, 2 provided
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp: In member function 'void MFRC522Driver::setBitMask(uint8_t, uint8_t)':
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:192:17: error: no matching function for call to 'MFRC522Driver::readReg(uint8_t&, uint8_t*)'
+  192 |     if (!readReg(reg, &value))
+      |          ~~~~~~~^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note: candidate: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+  166 | uint8_t MFRC522Driver::readReg(
+      |         ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note:   candidate expects 1 argument, 2 provided
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp: In member function 'void MFRC522Driver::clearBitMask(uint8_t, uint8_t)':
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:217:17: error: no matching function for call to 'MFRC522Driver::readReg(uint8_t&, uint8_t*)'
+  217 |     if (!readReg(reg, &value))
+      |          ~~~~~~~^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note: candidate: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+  166 | uint8_t MFRC522Driver::readReg(
+      |         ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note:   candidate expects 1 argument, 2 provided
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp: In member function 'bool MFRC522Driver::transceive(const uint8_t*, uint8_t, uint8_t*, uint8_t*, uint8_t*)':
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:381:18: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)CommandReg)), ((int)((uint8_t)PCD_Idle)))' from 'void' to 'bool'
+  381 |     if (!writeReg(
+      |          ~~~~~~~~^
+      |                  |
+      |                  void
+  382 |             CommandReg,
+      |             ~~~~~~~~~~~
+  383 |             PCD_Idle))
+      |             ~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:381:18: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:389:18: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)ComIrqReg)), 127)' from 'void' to 'bool'
+  389 |     if (!writeReg(
+      |          ~~~~~~~~^
+      |                  |
+      |                  void
+  390 |             ComIrqReg,
+      |             ~~~~~~~~~~
+  391 |             0x7F))
+      |             ~~~~~ 
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:389:18: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:397:18: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)FIFOLevelReg)), 128)' from 'void' to 'bool'
+  397 |     if (!writeReg(
+      |          ~~~~~~~~^
+      |                  |
+      |                  void
+  398 |             FIFOLevelReg,
+      |             ~~~~~~~~~~~~~
+  399 |             0x80))
+      |             ~~~~~ 
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:397:18: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:418:22: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)FIFODataReg)), ((int)((uint8_t)(*(send + ((sizetype)i))))))' from 'void' to 'bool'
+  418 |         if (!writeReg(
+      |              ~~~~~~~~^
+      |                      |
+      |                      void
+  419 |                 FIFODataReg,
+      |                 ~~~~~~~~~~~~
+  420 |                 send[i]))
+      |                 ~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:418:22: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:430:18: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)BitFramingReg)), ((int)(* validBits)))' from 'void' to 'bool'
+  430 |     if (!writeReg(
+      |          ~~~~~~~~^
+      |                  |
+      |                  void
+  431 |             BitFramingReg,
+      |             ~~~~~~~~~~~~~~
+  432 |             *validBits))
+      |             ~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:430:18: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:438:18: error: could not convert '((MFRC522Driver*)this)->MFRC522Driver::writeReg(((int)((uint8_t)CommandReg)), ((int)((uint8_t)PCD_Transceive)))' from 'void' to 'bool'
+  438 |     if (!writeReg(
+      |          ~~~~~~~~^
+      |                  |
+      |                  void
+  439 |             CommandReg,
+      |             ~~~~~~~~~~~
+  440 |             PCD_Transceive))
+      |             ~~~~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:438:18: error: in argument to unary !
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:471:21: error: no matching function for call to 'MFRC522Driver::readReg(const uint8_t&, uint8_t*)'
+  471 |         if (!readReg(
+      |              ~~~~~~~^
+  472 |                 ComIrqReg,
+      |                 ~~~~~~~~~~
+  473 |                 &irq))
+      |                 ~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note: candidate: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+  166 | uint8_t MFRC522Driver::readReg(
+      |         ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note:   candidate expects 1 argument, 2 provided
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:526:29: error: no matching function for call to 'MFRC522Driver::readReg(const uint8_t&, uint8_t*)'
+  526 |                 if (!readReg(
+      |                      ~~~~~~~^
+  527 |                         FIFODataReg,
+      |                         ~~~~~~~~~~~~
+  528 |                         &value))
+      |                         ~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note: candidate: 'uint8_t MFRC522Driver::readReg(uint8_t)'
+  166 | uint8_t MFRC522Driver::readReg(
+      |         ^~~~~~~~~~~~~
+/home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:166:9: note:   candidate expects 1 argument, 2 provided
+ninja: build stopped: subcommand failed.

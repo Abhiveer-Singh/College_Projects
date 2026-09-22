@@ -1,0 +1,304 @@
+Command: /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/halo/esp32_vending/vending_machine/build/ration_vending_pure_idf.elf /home/halo/esp32_vending/vending_machine/build/bootloader/bootloader.elf -m '/home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python' '/home/halo/.espressif/v5.5.5/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+--- esp-idf-monitor 1.10.0 on /dev/ttyUSB0 115200
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008769a: vPortClearInterruptMaskFromISR at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560(inlined by) vPortExitCritical at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:524
+--- 0x400822ac: vPortExitCriticalSafe at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596(inlined by) esp_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/intr_alloc.c:912
+--- 0x400841cd: spi_bus_intr_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:733
+--- 0x400e9172: bg_enable at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:338(inlined by) req_core at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:364
+--- 0x400db591: spi_bus_lock_bg_request at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/spi_bus_lock.c:817
+--- 0x400dc95e: spi_device_queue_trans at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1305
+--- 0x400dca10: spi_device_transmit at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1346
+--- 0x400d7c35: MFRC522Driver::readReg(unsigned char) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:58
+--- 0x400d7de0: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:124
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+

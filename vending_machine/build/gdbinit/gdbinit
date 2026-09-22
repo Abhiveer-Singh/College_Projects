@@ -1,0 +1,2 @@
+source /home/halo/esp32_vending/vending_machine/build/gdbinit/symbols
+source /home/halo/esp32_vending/vending_machine/build/gdbinit/connect

@@ -1,0 +1,71 @@
+Command: ninja all
+[1/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/ration_data.cpp.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/ration_data.cpp.obj 
+/home/halo/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -DESP_PLATFORM -DIDF_VER=\"v5.5.5\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/halo/esp32_vending/vending_machine/build/config -I/home/halo/esp32_vending/vending_machine/main -I/home/halo/.espressif/v5.5.5/esp-idf/components/newlib/platform_include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/include/freertos -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/config/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/halo/.espressif/v5.5.5/esp-idf/components/freertos/esp_additions/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include/soc -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/dma/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/ldo/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/debug_probe/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/power_supply/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/port/esp32/. -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_hw_support/port/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/heap/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/heap/tlsf -I/home/halo/.espressif/v5.5.5/esp-idf/components/log/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/soc/esp32/register -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/platform_port/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/hal/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32/include/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_rom/esp32 -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_common/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/port/soc -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/port/include/private -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/deprecated_include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include/apps -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/include/apps/sntp -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/lwip/src/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/freertos/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/halo/.espressif/v5.5.5/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/deprecated -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/i2c/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/touch_sensor/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/twai/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/driver/touch_sensor/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_pm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_ringbuf/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_gpio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_pcnt/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_gptimer/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_spi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_mcpwm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_ana_cmpr/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_i2s/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdmmc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/sdmmc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdspi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_dac/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_rmt/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_tsens/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_sdm/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_i2c/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/vfs/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_ledc/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_parlio/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_twai/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_lcd/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_lcd/interface -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/include/local -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/wifi_apps/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_event/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_phy/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_phy/esp32/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_netif/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_http_client/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/nvs_flash/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_partition/include -I/home/halo/.espressif/v5.5.5/esp-idf/components/esp_timer/include -I/home/halo/esp32_vending/vending_machine/managed_components/espressif__esp_lcd_ili9341/include @"/home/halo/esp32_vending/vending_machine/build/toolchain/cxxflags" -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/halo/esp32_vending/vending_machine=. -fmacro-prefix-map=/home/halo/.espressif/v5.5.5/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fuse-cxa-atexit -DESP_LCD_ILI9341_VER_MAJOR=2 -DESP_LCD_ILI9341_VER_MINOR=1 -DESP_LCD_ILI9341_VER_PATCH=0 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ration_data.cpp.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/ration_data.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/ration_data.cpp.obj -c /home/halo/esp32_vending/vending_machine/main/ration_data.cpp
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:33:1: error: stray '`' in program
+   33 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:33:2: error: stray '`' in program
+   33 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:33:3: error: stray '`' in program
+   33 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:185:1: error: stray '`' in program
+  185 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:185:2: error: stray '`' in program
+  185 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:185:3: error: stray '`' in program
+  185 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:200:1: error: stray '`' in program
+  200 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:200:2: error: stray '`' in program
+  200 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:200:3: error: stray '`' in program
+  200 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:236:1: error: stray '`' in program
+  236 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:236:2: error: stray '`' in program
+  236 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:236:3: error: stray '`' in program
+  236 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:262:1: error: stray '`' in program
+  262 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:262:2: error: stray '`' in program
+  262 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:262:3: error: stray '`' in program
+  262 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:302:1: error: stray '`' in program
+  302 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:302:2: error: stray '`' in program
+  302 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:302:3: error: stray '`' in program
+  302 | ```
+      |   ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:315:1: error: stray '`' in program
+  315 | ```
+      | ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:315:2: error: stray '`' in program
+  315 | ```
+      |  ^
+/home/halo/esp32_vending/vending_machine/main/ration_data.cpp:315:3: error: stray '`' in program
+  315 | ```
+      |   ^
+[2/9] Performing build step for 'bootloader'
+[1/1] cd /home/halo/esp32_vending/vending_machine/build/bootloader/esp-idf/esptool_py && /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/halo/esp32_vending/vending_machine/build/bootloader/bootloader.bin
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,24 @@
+Command: ninja all
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/halo/esp32_vending/vending_machine/build/bootloader/esp-idf/esptool_py && /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/halo/esp32_vending/vending_machine/build/bootloader/bootloader.bin
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[2/11] No install step for 'bootloader'
+[3/11] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/rfid_task.cpp.obj
+[4/11] Completed 'bootloader'
+[5/11] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+/home/halo/esp32_vending/vending_machine/main/main.cpp: In function 'void app_main()':
+/home/halo/esp32_vending/vending_machine/main/main.cpp:312:45: warning: '++' expression of 'volatile'-qualified type is deprecated [-Wvolatile]
+  312 |         for (volatile int i = 0; i < 10000; i++) {
+      |                                             ^
+[6/11] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/mf_rc522.cpp.obj
+[7/11] Linking C static library esp-idf/main/libmain.a
+[8/11] Generating esp-idf/esp_system/ld/sections.ld
+[9/11] Linking CXX executable ration_vending_pure_idf.elf
+[10/11] Generating binary image from built executable
+esptool.py v4.12.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/halo/esp32_vending/vending_machine/build/ration_vending_pure_idf.bin
+[11/11] cd /home/halo/esp32_vending/vending_machine/build/esp-idf/esptool_py && /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/halo/esp32_vending/vending_machine/build/partition_table/partition-table.bin /home/halo/esp32_vending/vending_machine/build/ration_vending_pure_idf.bin
+ration_vending_pure_idf.bin binary size 0x3a100 bytes. Smallest app partition is 0x100000 bytes. 0xc5f00 bytes (77%) free.

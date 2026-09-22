@@ -1,0 +1,369 @@
+Command: /home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/halo/.espressif/v5.5.5/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/halo/esp32_vending/vending_machine/build/ration_vending_pure_idf.elf /home/halo/esp32_vending/vending_machine/build/bootloader/bootloader.elf -m '/home/halo/.espressif/python_env/idf5.5_py3.10_env/bin/python' '/home/halo/.espressif/v5.5.5/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+--- esp-idf-monitor 1.10.0 on /dev/ttyUSB0 115200
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- WARNING: Failed to decode multiple lines in a row. Try checking the baud rate and XTAL frequency setting in menuconfig
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d7e51: MFRC522Driver::transceive(unsigned char const*, unsigned char, unsigned char*, unsigned char*, unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:140
+--- 0x400d7e99: MFRC522Driver::requestA(unsigned char*) at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:152
+--- 0x400d7f43: MFRC522Driver::isNewCardPresent() at /home/halo/esp32_vending/vending_machine/main/mf_rc522.cpp:181
+--- 0x400d768b: rfidPoll(int*, char*, int) at /home/halo/esp32_vending/vending_machine/main/rfid_task.cpp:35
+--- 0x400d7048: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:187
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d4d2d: uart_tx_char at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:188
+--- 0x400d5444: uart_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:245
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5e29: console_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_vfs_console/vfs_console.c:83
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400e0b89: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400e74ab: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429(inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+--- 0x400e73a2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774
+--- 0x400e0bdf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d8547: XPT2046Driver::readPoint() at /home/halo/esp32_vending/vending_machine/main/touch_xpt2046.cpp:93
+--- 0x400d7ade: uiUpdateFamily(int) at /home/halo/esp32_vending/vending_machine/main/ui_task.cpp:424
+--- 0x400d70c2: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:231
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d4d35: uart_ll_get_txfifo_len at /home/halo/.espressif/v5.5.5/esp-idf/components/hal/esp32/include/hal/uart_ll.h:443(inlined by) uart_tx_char at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+--- 0x400d5444: uart_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:245
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5e29: console_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_vfs_console/vfs_console.c:83
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400e0b89: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400e74ab: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429(inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+--- 0x400e73a2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774
+--- 0x400e0bdf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d8547: XPT2046Driver::readPoint() at /home/halo/esp32_vending/vending_machine/main/touch_xpt2046.cpp:93
+--- 0x400d7ade: uiUpdateFamily(int) at /home/halo/esp32_vending/vending_machine/main/ui_task.cpp:424
+--- 0x400d70c2: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:231
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d4d2d: uart_tx_char at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:188
+--- 0x400d5444: uart_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:245
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5e29: console_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_vfs_console/vfs_console.c:83
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400e0b89: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400e74ab: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429(inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+--- 0x400e73a2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774
+--- 0x400e0bdf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d8547: XPT2046Driver::readPoint() at /home/halo/esp32_vending/vending_machine/main/touch_xpt2046.cpp:93
+--- 0x400d7ade: uiUpdateFamily(int) at /home/halo/esp32_vending/vending_machine/main/ui_task.cpp:424
+--- 0x400d70c2: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:231
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d4d45: uart_ll_get_txfifo_len at /home/halo/.espressif/v5.5.5/esp-idf/components/hal/esp32/include/hal/uart_ll.h:443(inlined by) uart_tx_char at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+--- 0x400d5444: uart_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:245
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5e29: console_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_vfs_console/vfs_console.c:83
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400e0b89: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400e74ab: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429(inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+--- 0x400e73a2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774
+--- 0x400e0bdf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d8547: XPT2046Driver::readPoint() at /home/halo/esp32_vending/vending_machine/main/touch_xpt2046.cpp:93
+--- 0x400d7ade: uiUpdateFamily(int) at /home/halo/esp32_vending/vending_machine/main/ui_task.cpp:424
+--- 0x400d70c2: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:231
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d4d30: uart_ll_get_txfifo_len at /home/halo/.espressif/v5.5.5/esp-idf/components/hal/esp32/include/hal/uart_ll.h:443(inlined by) uart_tx_char at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
+--- 0x400d5444: uart_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c:245
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000182a: write in ROM
+--- 0x400d5e29: console_write at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_vfs_console/vfs_console.c:83
+--- 0x400d63e6: esp_vfs_write at /home/halo/.espressif/v5.5.5/esp-idf/components/vfs/vfs.c:982
+--- 0x4000bd83: _write_r in ROM
+--- 0x4000117d: __swrite in ROM
+--- 0x400592fe: __sflush_r in ROM
+--- 0x4005937a: _fflush_r in ROM
+--- 0x400e0b89: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+--- 0x400e74ab: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429(inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+--- 0x400e73a2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774
+--- 0x400e0bdf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d84d5: XPT2046Driver::readPoint() at /home/halo/esp32_vending/vending_machine/main/touch_xpt2046.cpp:55
+--- 0x400d7ade: uiUpdateFamily(int) at /home/halo/esp32_vending/vending_machine/main/ui_task.cpp:424
+--- 0x400d70c2: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:231
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+--- 0x400da826: task_wdt_timeout_handling at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:436
+--- 0x400dabe8: task_wdt_isr at /home/halo/.espressif/v5.5.5/esp-idf/components/esp_system/task_wdt/task_wdt.c:509
+--- 0x40082d05: _xt_lowint1 at /home/halo/.espressif/v5.5.5/esp-idf/components/xtensa/xtensa_vectors.S:1264
+--- 0x400d716d: app_main at /home/halo/esp32_vending/vending_machine/main/main.cpp:312
+--- 0x400ea7ac: main_task at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/app_startup.c:215
+--- 0x40087311: vPortTaskWrapper at /home/halo/.espressif/v5.5.5/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+

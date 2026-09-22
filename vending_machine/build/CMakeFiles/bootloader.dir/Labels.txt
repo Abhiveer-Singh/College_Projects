@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/halo/esp32_vending/vending_machine/build/CMakeFiles/bootloader
+/home/halo/esp32_vending/vending_machine/build/CMakeFiles/bootloader.rule
+/home/halo/esp32_vending/vending_machine/build/CMakeFiles/bootloader-complete.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/halo/esp32_vending/vending_machine/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
